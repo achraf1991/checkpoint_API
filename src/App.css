@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+
+}
+.card{
+width: 300px; 
+ background-color: rgb(38, 63, 250);
+padding: 30px;
+border-radius: 8px;
+margin: 30px;
+margin-top: 10 px;
+/* text-align: center; */}
+.card p{
+font-weight: bold;
+
+}
+.card li {
+font-size:large;
+font-style: italic;
+}
+
+.card:hover{
+  box-shadow: 20px 36px 0 rgb(0, 0, 0);
+ 
+}
+.avatar {
+  height: 250 px;
+  width: 250px;
+object-fit: cover;
+border-radius: 10px;
+margin: 7%;
+margin-top: 10px;
+display: block;
+}
+.list{
+  padding: 10px;
+  display: flex;
+  width: 80%;
+  justify-content: space-around;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
